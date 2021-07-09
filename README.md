@@ -129,7 +129,11 @@ Project ini adalah kerangka aplikasi **Todo List** dengan fitur sebagai berikut:
 
 
 3. Jelaskan perbedaan dari MVP dan MVVM, berdasarkan pemahaman anda **Tanpa Browsing**
-4. Jelaskan perbedaan dari Activity, Fragment, dan Background Service, berasarkan pemahaman anda **Tanpa Browsing**
-    
-    
+Jawaban:
+Perbedaan antara MVP dan MVVM adalah MVP menggunakan presenter sebagai mediator antara model dan view, sedangkan MVVM menggunakan view model sebagai mediator antara model dan view. Untuk MVP, kelas view mengimplementasikan interface mediator (presenter) untuk melakukan komunikasi dengan data (model), sedangkan MVVM, kelas view tidak perlu mengimplementasikan interface, cukup membuat object view modelnya saja. MVVM saat ini didukung oleh Android architecture component yang dimana untuk saat ini menjadi bagian dari  Android Jetpack (view model juga menjadi bagian yang bisa diinjeksi menggunakan Hilt) yang dimana design pattern tersebut direkomendasikan Google. Sedangkan, untuk MVP saat ini belum didukung oleh Google.
+
+5. Jelaskan perbedaan dari Activity, Fragment, dan Background Service, berasarkan pemahaman anda **Tanpa Browsing**
+Jawaban:
+Activity adalah salah satu komponen yang berada dalam Android yang berfungsi untuk menampilkan UI beserta interaksinya.
+Fragmen adalah salah satu komponen yang dimana merupakan subbagian dari activity yang berperan sebagai penampil UI dan dapat berkomunikasi dengan fragment lainnya serta Activity tempat fragment itu tinggal.
 
